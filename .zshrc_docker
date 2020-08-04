@@ -1,6 +1,7 @@
 export EDITOR="nvim"
 export BROWSER="firefox"
 export ZPLUG_HOME=$HOME/.zplug
+export LC_ALL="en_US.UTF-8"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
