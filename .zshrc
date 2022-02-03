@@ -18,7 +18,7 @@ source $ZPLUG_HOME/init.zsh
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 zplug "lib/completion",   from:oh-my-zsh
-zplug 'zdharma/fast-syntax-highlighting', defer:2, hook-load:'FAST_HIGHLIGHT=()'
+zplug 'zdharma-continuum/fast-syntax-highlighting', defer:2, hook-load:'FAST_HIGHLIGHT=()'
 zplug 'zsh-users/zsh-autosuggestions', from:github
 zplug 'hlissner/zsh-autopair', defer:2
 
